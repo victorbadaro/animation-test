@@ -1,11 +1,11 @@
 import { Container } from './components/Container';
-import { Rotate } from './components/Rotate';
+import { Scale } from './components/Scale';
 import './styles/global.css';
 
 export function App() {
   return (
     <Container>
-      <Rotate />
+      <Scale />
     </Container>
   );
 }
