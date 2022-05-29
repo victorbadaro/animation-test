@@ -1,3 +1,10 @@
+import { Container } from './components/Container';
+import './styles/global.css';
+
 export function App() {
-  return <h1>Hello, animation-test!</h1>;
+  return (
+    <Container>
+      <h1>Hello, animation-test!</h1>
+    </Container>
+  );
 }
