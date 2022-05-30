@@ -1,0 +1,50 @@
+.container {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.smallButtonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.smallButtonsContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  z-index: 1;
+  transition: filter 200ms;
+}
+
+.smallButtonsContainer button:hover {
+  filter: brightness(0.8);
+}
+
+.bigButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #000;
+  z-index: 2;
+  transition: filter 200ms;
+}
+
+.bigButton:hover {
+  filter: brightness(0.8);
+}
